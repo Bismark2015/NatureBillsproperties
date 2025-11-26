@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NatureBills Properties - Premium Real Estate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="naturebills-logo.jpg" alt="NatureBills Logo" class="logo-img">
+                <div>
+                    <div class="logo-text">NatureBills</div>
+                    <div class="logo-subtext">Construction</div>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>NatureBills Properties</h1>
+            <p>Discover Your Dream Property</p>
+            <a href="#properties" class="cta-button">Explore Properties</a>
+        </div>
+    </section>
+
+    <!-- Properties Section -->
+    <section id="properties">
+        <h2 class="section-title">Our Premium Properties</h2>
+        <div class="properties-grid" id="propertiesGrid"></div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="videos" class="video-section">
+        <h2 class="section-title">Property Tours</h2>
+        <div class="video-grid" id="videoGrid"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title" style="color: white;">Get In Touch</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <span>📧</span>
+                <div>
+                    <strong>Email</strong>
+                    <p>info@naturebills.com</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <span>📱</span>
+                <div>
+                    <strong>Phone</strong>
+                    <p>+233 247932172</p>
+                    <p>+233 551697437</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <span>📍</span>
+                <div>
+                    <strong>Location</strong>
+                    <p>Accra, Ghana</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 NatureBills Properties. All rights reserved.</p>
+    </footer>
+
+   
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+        <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+        <button class="lightbox-nav lightbox-prev" onclick="changeLightboxImage(-1)">&#10094;</button>
+        <img src="" alt="Property" class="lightbox-image" id="lightboxImage">
+        <button class="lightbox-nav lightbox-next" onclick="changeLightboxImage(1)">&#10095;</button>
+        <div class="lightbox-info" id="lightboxInfo"></div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
