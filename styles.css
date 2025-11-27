@@ -514,32 +514,6 @@ footer {
     border-radius: 10px;
 }
 
-/* Mobile nav: logo on top, links split two per row */
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nav-links {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 100%;
-        margin-top: 1rem;
-        padding: 0 1rem;
-    }
-
-    .nav-links li {
-        width: 48%; /* Two per row */
-        margin-bottom: 0.5rem;
-    }
-
-    .nav-links li a {
-        display: block;
-        text-align: center;
-    }
-}
 
 /* Testimonials Section */
 #testimonials {
