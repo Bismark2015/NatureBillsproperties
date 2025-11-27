@@ -173,12 +173,12 @@ const properties = [
 ];
 
 // Video data - Replace these YouTube IDs with your actual video IDs
-const videos = [
+/*const videos = [
     { id: "dQw4w9WgXcQ", title: "Skyline Tower Virtual Tour", description: "Complete walkthrough of our premium commercial space" },
     { id: "dQw4w9WgXcQ", title: "Green Valley Apartments", description: "Luxury residential living at its finest" },
     { id: "dQw4w9WgXcQ", title: "Ocean View Plaza Overview", description: "Mixed-use development with stunning views" }
 ];
-
+*/
 // WhatsApp number - You can change this to whichever number you prefer
 const whatsappNumber = "233247932172"; // or use "233551697437"
 
@@ -276,7 +276,7 @@ document.addEventListener('keydown', (e) => {
 });
 
 // Render videos
-const videoGrid = document.getElementById('videoGrid');
+/*const videoGrid = document.getElementById('videoGrid');
 videos.forEach(video => {
     const videoCard = `
         <div class="video-container">
@@ -295,7 +295,7 @@ videos.forEach(video => {
         </div>
     `;
     videoGrid.innerHTML += videoCard;
-});
+});*/
 
 // Smooth scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
